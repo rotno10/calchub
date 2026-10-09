@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BMI Calculator – Check Your Body Mass Index Free | CalcHub</title>
+<meta name="description" content="Free BMI calculator in metric or imperial units. See your BMI, weight category and healthy weight range instantly.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="bmi">
+<header class="site-header" id="site-header"></header>
+<main class="wrap">
+  <h1>BMI Calculator</h1>
+  <p class="lead">Find your body mass index and healthy weight range.</p>
+  <form class="card">
+    <label>Units<select name="unit"><option value="m">Metric (kg, cm)</option><option value="i">Imperial (lb, inches)</option></select></label>
+    <div class="row"><label><span id="l1"></span><input name="w"></label><label><span id="l2"></span><input name="h"></label></div>
+    <button class="primary">Calculate BMI</button><div class="result" hidden></div>
+    <p class="muted small">BMI is a general screening tool, not a medical diagnosis. Ask a health professional for advice.</p>
+  </form>
+  <section id="related"></section>
+</main>
+<footer class="site-footer" id="site-footer"></footer>
+<script src="config.js"></script><script src="script.js"></script>
+</body>
+</html>

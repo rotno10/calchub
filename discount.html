@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Discount Calculator – Sale Price and Savings | CalcHub</title>
+<meta name="description" content="Free discount calculator. Enter the original price and discount percent to see the final price and how much you save.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="discount">
+<header class="site-header" id="site-header"></header>
+<main class="wrap">
+  <h1>Discount Calculator</h1>
+  <p class="lead">Work out the sale price and your savings, with an optional second discount.</p>
+  <form class="card">
+    <label>Original price<input name="p"></label>
+    <div class="row"><label>Discount (%)<input name="d"></label><label>Extra discount (%) – optional<input name="x"></label></div>
+    <button class="primary">Calculate</button><div class="result" hidden></div>
+  </form>
+  <section id="related"></section>
+</main>
+<footer class="site-footer" id="site-footer"></footer>
+<script src="config.js"></script><script src="script.js"></script>
+</body>
+</html>

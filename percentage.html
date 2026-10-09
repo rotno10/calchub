@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Percentage Calculator – Percent of a Number and Percent Change | CalcHub</title>
+<meta name="description" content="Free percentage calculator: find X% of a number, what percent one number is of another, and percentage increase or decrease.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="percentage">
+<header class="site-header" id="site-header"></header>
+<main class="wrap">
+  <h1>Percentage Calculator</h1>
+  <p class="lead">Three common percentage calculations in one place.</p>
+  <form class="card" data-m="of"><h2>What is X% of Y?</h2>
+    <div class="row"><label>Percentage (%)<input name="a"></label><label>Of number<input name="b"></label></div>
+    <button class="primary">Calculate</button><div class="result" hidden></div></form>
+  <form class="card" data-m="is"><h2>X is what % of Y?</h2>
+    <div class="row"><label>Number (X)<input name="a"></label><label>Total (Y)<input name="b"></label></div>
+    <button class="primary">Calculate</button><div class="result" hidden></div></form>
+  <form class="card" data-m="chg"><h2>Percentage increase or decrease</h2>
+    <div class="row"><label>Old value<input name="a"></label><label>New value<input name="b"></label></div>
+    <button class="primary">Calculate</button><div class="result" hidden></div></form>
+  <section id="related"></section>
+</main>
+<footer class="site-footer" id="site-footer"></footer>
+<script src="config.js"></script><script src="script.js"></script>
+</body>
+</html>
